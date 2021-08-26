@@ -1,0 +1,67 @@
+/* global styles */
+
+*
+{
+    background-color: rgb(59, 59, 59);
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+/* header */
+
+header 
+{
+    overflow: hidden;
+}
+
+header nav
+{
+    float: right;
+    font-size: 16px;
+}
+
+header nav a
+{
+    padding: 5px;
+}
+
+/* body */
+
+.top
+{
+    text-align: center;
+    padding-bottom: 69px;
+}
+
+.body q
+{
+    font-style: italic;
+}
+
+.main
+{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* for maintainance purposes */
+
+.main .working
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.main a
+{
+    font-style: oblique;
+}
