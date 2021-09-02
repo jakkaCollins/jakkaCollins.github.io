@@ -10,12 +10,16 @@
 a
 {
     text-decoration: none;
+    transition: 0.3s;
 }
+
 a:hover
 {
-    color: blue;
+    color: lightblue;
     text-decoration: underline;
+    transition: 0.3s;
 }
+
 /* header */
 
 header 
@@ -49,11 +53,12 @@ header nav a
 
 .main
 {
-    padding-left: 200px;
-    padding-right: 200px;
+width: 50vw;
+padding: 10px;
+margin: auto;
 }
 
-/* for maintainance purposes */
+/* for maintenance purposes */
 
 .main .working
 {
@@ -64,4 +69,47 @@ header nav a
 .main a
 {
     font-style: oblique;
+}
+
+/* Text classes (this is optional and can be undone if necessary) */
+h1 {
+    font-size: 4vh !important;
+    margin-bottom: 2vw !important;
+}
+
+p {
+    font-size: 2.5vh !important;
+    margin-bottom: 2vw !important;
+}
+
+h2 {
+    font-size: 3.2vh !important;
+    margin-bottom: 2vw !important;
+}
+
+li {
+    font-size: 2.5vh !important;
+    margin-bottom: 10px !important;
+}
+
+/* Mobile optimizations */
+@media only screen and (max-width: 1026px) 
+{
+
+header nav {
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+}
+
+header nav a {
+    padding: none !important;
+}
+
+.main {
+    width: 90vw;
+    padding: 5px;
+}
+
 }
