@@ -35,10 +35,18 @@
   </body>
 </html>
 
-this is just a template for the html files on my website. nothing to see here, matpat.
+this is just a template for the html files on my website, for the sake of making webpages easier to make. 
+nothing to see here, matpat.
 
 might as well put some greetz here because why not
 
-adam salt (whyAdamSalt @ https://whyadamsalt.xyz)
-andrew seavers (infernit)
-luke barkess (brumus14)
+adam (whyAdamSalt)
+andrew (infernit)
+luke (brumus14)
+jamie (optic_120fps)
+ross (ross295)
+skyler (skyler948)
+swiftshift
+magic (magicthunderlemon)
+sluggy
+val (valkyrie)
