@@ -19,7 +19,7 @@
   <section class="body">
     <div class = "top">
       <h1 class="name">finlay collins</h1>
-      <q>keep it simple, shithead!</q>
+      <q>i eat my own waste.</q>
     </div>
     <div class="main">
         <h1>about me</h1>
