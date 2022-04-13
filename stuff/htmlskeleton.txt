@@ -13,6 +13,7 @@
       <a href="index.html">home</a>
       <a href="about.html">about</a>
       <a href="blog.html">blogs</a>
+      <a href="rocks.html>rocks</a>
       <a href="contact.html">contact</a>
     </nav>
   </header>
