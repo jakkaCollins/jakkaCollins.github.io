@@ -37,6 +37,12 @@ h2
 {
     font-size: 3.2vh !important;
     margin-bottom: 2vw !important;
+    color: #c8a2c8;
+}
+
+h3
+{
+    color: #c8a2c8;
 }
 
 li 
