@@ -1,4 +1,4 @@
-/* global styles */
+/* Global styles */
 
 *
 {
@@ -52,7 +52,7 @@ li
 }
 
 
-/* header */
+/* Header */
 
 header 
 {
@@ -72,7 +72,7 @@ header nav a
 }
 
 
-/* body */
+/* Body */
 
 .top
 {
@@ -102,9 +102,6 @@ header nav a
     padding: 20px;
     text-align: center;
 }
-
-/* the following code is done by adam and not me, so if there are any problems with this next section, go ahead and find and blame him. */
-
 
 /* Mobile optimizations */
 
