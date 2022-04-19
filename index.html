@@ -4,17 +4,21 @@
     <title>jakkaCollins - Home</title>
     <link rel="stylesheet" href="./css/style.css"/>
     <link rel="icon" type="png" href="/stuff/favicon.jpeg"/>
+    <script type="text/javascript" src="/js/button.js"></script>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
   <body>
   <header>  
-    <nav>
+    <nav class="navi" id="menu">
       <a href="https://jakkacollins.github.io">Home</a>
       <a href="/about">About</a>
       <a href="/blog">Blog</a>
       <a href="/rocks">Rocks</a>
       <a href="/contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="menuButton()"> 
+        <i class=""fa fa-bars"></i>
+      </a>
     </nav>
   </header>
   <section class="body">
@@ -28,7 +32,6 @@
       <p>Thank you so much for visiting!</p>
       <hr>
       <h3>Made with love by Finlay Collins from scratch HTML on Visual Studio Code.</h3>
-      <h3>Credit goes to Adam Salt for helping with the mobile variant of this website.</h3>
     </div>
   </section>
   </body>

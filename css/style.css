@@ -71,6 +71,11 @@ header nav a
     padding: 7px;
 }
 
+.navi .icon 
+{
+    display: none;
+}
+
 
 /* Body */
 
@@ -92,6 +97,11 @@ header nav a
     margin: auto;
 }
 
+.main a
+{
+    font-style: italic;
+}
+
 .main h1
 {
     font-size: 4vh !important;
@@ -103,7 +113,7 @@ header nav a
     text-align: center;
 }
 
-/* Mobile optimizations */
+/* Mobile optimizations, including menu button */
 
 @media only screen and (max-width: 1026px) 
 {
@@ -119,6 +129,37 @@ header nav
 header nav a 
 {
     padding: none !important;
+    font-size: 10px !important;
+}
+
+.navi a:not(:first-child)
+{
+    display: none;
+}
+
+.navi a.icon
+{
+    float: right;
+    display: block;
+}
+
+.navi .responsive
+{
+    position: relative;
+}
+
+.navi .responsive .icon
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.navi .responsive a
+{
+    float: none;
+    display: block;
+    text-align: left;
 }
 
 .main 
