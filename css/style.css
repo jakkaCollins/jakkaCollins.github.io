@@ -2,7 +2,7 @@
 
 *
 {
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(25, 24, 34);
     color: whitesmoke;
     font-family: monospace;
 }
@@ -15,9 +15,14 @@ a
 
 a:hover
 {
-    color:#41492a;
+    color:#ff0095;
     text-decoration: underline;
     transition: 0.6s;
+}
+
+hr
+{
+    background-color: #3aff4a;
 }
 
 p 
@@ -30,19 +35,19 @@ h1
 {
     font-size: 6vh !important;
     margin-bottom: 2vw !important;
-    color: #41492a;
+    color: #3aff4a;
 }
 
 h2 
 {
     font-size: 3.2vh !important;
     margin-bottom: 2vw !important;
-    color: #41492a;
+    color: #ff0095;
 }
 
 h3
 {
-    color: #41492a;
+    color: #ff0095;
 }
 
 li 
@@ -78,6 +83,10 @@ header nav a
     padding-bottom: 15px;
 }
 
+.favicon
+{
+    text-align: center;
+}
 .body q
 {
     font-style: italic;
