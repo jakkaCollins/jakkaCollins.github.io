@@ -47,6 +47,7 @@ h2
 h3
 {
     color: #af5500;
+    padding-bottom: 1em;
 }
 
 li 
@@ -55,32 +56,13 @@ li
     margin-bottom: 10px !important;
 }
 
-/* Header */
-
-header 
-{
-    overflow: hidden;
-    padding-top: 15px;
-}
-
-header nav
-{
-    float: center;
-    text-align: center;
-    font-size: 20px;
-}
-
-header nav a
-{
-    padding: 7px;
-}
-
 /* Body */
 
 .top
 {
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 2px;
+    padding-top: 2em;
 }
 
 .favicon
@@ -104,24 +86,20 @@ header nav a
     font-style: italic;
 }
 
+.blog
+{
+    padding-bottom: 2em;
+}
+
+.blog a
+{
+    font-size: 1.5em;
+}
+
 /* Mobile optimizations */
 
 @media only screen and (max-width: 1026px) 
 {
-
-header nav 
-{
-    float: none;
-    font-size: 12px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    text-align: center;
-}
-
-header nav a 
-{
-    padding: none !important;
-}
 
 .main 
 {
